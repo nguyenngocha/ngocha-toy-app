@@ -9,7 +9,7 @@
   <strong>Email:</strong>
   <%= @user.email %>
 </p>	
- <strong>Micropost:</strong>
+
 <% @user.microposts.each do |micropost| %>
 	<table>
 		<tbody>
